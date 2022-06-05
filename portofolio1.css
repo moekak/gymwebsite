@@ -1,0 +1,653 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&family=Roboto:wght@500;700&display=swap');
+*{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+p,a,h1,h2,h3{
+  font-family: 'Roboto', sans-serif;
+}
+header{
+  background-color: black;
+}
+.main__container{
+  background-image: linear-gradient(
+      to bottom,
+      rgba(1,1,1),
+      rgba(1, 1, 1,0.1),
+      rgba(1,1,1)
+      
+    ),
+    url("https://www.teahub.io/photos/full/252-2520574_photo-wallpaper-machine-female-workout-gym-gym-machine.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom 100% ;
+  overflow-y: hidden;
+  /* height: 100vh; */
+  background-color: black;
+}
+
+header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 5% 3%;
+}
+.header-right ul{
+  display: flex;
+  align-items: center;
+  gap: 5%;
+  width: 60%;
+  list-style: none;
+  text-decoration: none;
+}
+.header-right ul li a{
+  text-decoration: none;
+  font-size: 1rem;
+  color: rgba(256,256,256,0.5);
+  transition: all 0.3s ease;
+}
+.header-right ul li a:hover{
+  color: white;
+  transition: all 0.3s ease;
+}
+.header-left span{
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #B06AB3, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #B06AB3, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+font-size:1rem;
+padding: 0 2%;
+
+}
+.header-left a{
+  font-size: 1.5rem;
+  font-style: italic;
+  width: 100%;
+  text-decoration: none;
+  color: white;
+  font-weight:bolder;
+}
+.header-left{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.header-right {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  gap: 5%;
+  width: 60%;
+}
+.buy{
+  padding: 2% 4%;
+  background-color: rgb(0, 106, 255);
+}
+.buy a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+ 
+}
+button{
+  border: none;
+  border-radius: 5px;
+}
+
+.left__container h1{
+  font-size: 4rem;
+  color: white;
+  letter-spacing: 0.2rem;
+  font-style: italic;
+  display: flex;
+  font-weight: bolder;
+
+}
+.left__container span{
+  letter-spacing: 0;
+  padding-right: 3%;
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cf569e 70%, #4568DC 30%);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cf569e, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+
+
+
+}
+
+.main__container{
+  display: flex;
+  gap: 10%; 
+}
+.left__container{
+  padding: 5%;
+  width: 60%;
+
+}
+.challenge{
+  margin-left: 22%;
+  margin-top: 5%;
+  padding: 3% 6%;
+  background-color: #cf569e;
+}
+.challenge a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+.right__container{
+  width: 25%;
+  margin-top: 5%;
+}
+.acheivement{
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #4568DC);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cf569e, #4568DC); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  padding-bottom: 8%;
+
+  
+  
+
+}
+.info__container{
+  border: 1px solid rgba(256,256,256,0.2);
+  padding:10%;
+  background-color: black;
+}
+.info__container p{
+  font-size: 1rem;
+  color: white;
+  
+}
+.info__container span{
+  font-size: 4rem;
+  font-weight: bolder;
+  padding-right: 2%;
+
+}
+.info__container i.fas{
+  font-size: 3rem;
+  background: #4568DC;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #2653e5);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #cf569e, #2653e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  padding-top: 5%;
+}
+.bottom__container{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 8%;
+}
+.bottom__container .fas{
+  background: #4568DC;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cf569e, #2653e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cf569e, #2653e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+}
+.info__container:nth-child(2){
+  margin-bottom: 30%;
+}
+/* main second */
+.main__second{
+  background: #000000;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to top, #434343, #000000);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to top, #434343, #000000); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  
+}
+
+.main__second-left{
+  padding-left: 10%;
+  width:40%;
+  position: relative;
+}
+.context i.fas{
+  font-size: 5rem;
+  background: -webkit-linear-gradient(to right, #cf569e, #2653e5);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #cf569e, #2653e5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+}
+.context{
+  display: flex;
+  align-items: center;
+  gap: 10%;
+  margin-bottom: 10%;
+  padding-bottom: 5%;
+  border-bottom: 1px solid rgba(256,256,256,0.2);
+ 
+}
+.context:nth-child(1){
+  padding-top: 60%;
+}
+.context p{
+  font-size: 1rem;
+  background: #cf569e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #493240, #FF0099);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to left, #493240, #FF0099); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+font-style: italic;
+
+}
+.context h1{
+  font-size: 3.5rem;
+  color: white;
+  font-weight: bolder;
+}
+.context span{
+  font-size: 1.5rem;
+}
+/* picture */
+.picture{
+  background-image: linear-gradient(
+      to right,
+      rgba(1,1,1,0.9) 40%,
+      rgba(1, 1, 1,0.6),
+      rgba(1,1,1,0.3)
+      
+    ),
+    url("https://post.greatist.com/wp-content/uploads/sites/2/2019/04/Running-Faster-800x1200.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-position: bottom 100% ;
+  overflow-y: hidden;
+  padding: 3%;
+  width: 36%;
+  position: absolute;
+  top: 100%;
+  left: 5%;
+}
+.picture p{
+  font-size: 1.7rem;
+}
+.achievemnt{
+  background: #cf569e;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+background: linear-gradient(to right, #cf569e, #4568DC);
+-webkit-background-clip: text;
+-moz-background-clip: text;
+-webkit-text-fill-color: transparent;
+-moz-text-fill-color: transparent;
+padding-bottom: 5%;
+
+}
+
+.picture p:nth-child(2){
+  width: 60%;
+  font-size: 1.2rem;
+  color: white;
+  padding-bottom: 7%;
+}
+.read{
+  padding: 3% 8%;
+  border: none;
+  background-color: #cf569e;
+}
+.read a{
+  font-size: 1.2rem;
+  text-decoration: none;
+  color: white;
+}
+.main__second-right h1{
+  display: flex;
+  color: white;
+  font-size: 4.5rem;
+  font-style: italic;
+ 
+
+}
+.main__second-right span{
+  padding-right: 3%;
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 4rem;
+}
+.main__second{
+  display: flex;
+  gap: 5%;
+}
+.main__second-right{
+  width: 60%;
+  padding-right: 5%;
+  padding-left: 3%;
+}
+.first{
+  padding-left: 23%;
+  /* color: white; */
+  font-size: 1.2rem;
+  color: white;
+  font-family: 'Rajdhani', sans-serif;
+  padding-top: 5%;
+}
+.second{
+  padding-left: 23%;
+  color: rgba(256,256,256,0.3);
+  font-size: 1.2rem;
+  padding-top: 3%;
+  font-family: 'Rajdhani', sans-serif;
+
+}
+.about{
+  margin-left: 23%;
+  margin-top: 5%;
+  padding: 2% 5%;
+  background-color: #cf569e;
+
+}
+.about a{
+  font-size: 1rem;
+  text-decoration: none;
+  color: white;
+}
+/* main__third */
+.main__third{
+  display: flex;
+  padding: 3% 5%;
+  
+}
+.main__third-left{
+  width: 55%;
+}
+.text{
+  display: flex;
+
+}
+.text span{
+  font-size: 3.5rem;
+  font-weight: bolder;
+  font-style: italic;
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+}
+.text h1{
+  font-size: 3.6rem;
+  font-weight: 900;
+  font-style: italic;
+
+}
+.main__third-left p{
+  padding-left: 15%;
+  padding-top: 5%;
+  font-size: 1.5rem;
+  color: rgba(1, 1, 1,0.4);
+}
+.main__third-right{
+  width: 50%;
+}
+.cooperation{
+  background-image: linear-gradient(
+    to left,
+    rgba(1,1,1) 30%,
+    rgba(1, 1, 1,0.5),
+    rgba(1,1,1,0.1)
+    
+  ),
+  url("https://smartlog-stat2.imgix.net/uploads/content/piece/2021/7/i9enjn/shutterstock_278747045.jpg?w=689&h=459&auto=compress&q=35");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: bottom 100% ;
+overflow-y: hidden;
+padding: 6% 1% 6% 5%;
+display: flex;
+justify-content: right;
+position: absolute;
+bottom: -140%;
+right: 3%;
+}
+.cooperation button.read a{
+font-size: 1rem;
+}
+
+.cooperation h3{
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.5rem;
+  padding-bottom: 5%;
+
+}
+.cooperation-text{
+  width: 60%; 
+}
+.cooperation-text p{
+  color: white; 
+  font-size: 1rem;
+  padding-bottom: 8%;
+}
+.cooperation button.read{
+  padding: 5% 8%;
+  margin-top: 5%;
+}
+/* main__forth */
+.main__forth{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  padding: 8%;
+  gap: 8%;
+}
+.container i.fas{
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 3rem;
+  padding-bottom: 15%;
+}
+.explanation{
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding-bottom: 15%;
+}
+.explain{
+  font-size: 1rem;
+  padding-bottom: 30%;
+  color: rgba(1, 1, 1,0.4);
+  
+}
+.circle{
+  display: flex;
+  align-items: center;
+  
+}
+.circle p{
+  border: 1px solid rgba(1, 1, 1,0.2);
+  border-radius:500px;
+  padding: 2%;
+  font-size: 1rem;
+  width: 40px;
+  height:40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+
+  
+}
+/* main__fifth */
+.main__fifth{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.my{
+  padding: 1% 2%;
+  background-color: blue;
+  border-radius: 5px;
+  margin-bottom: 5%;
+}
+.my a{
+  text-decoration: none;
+  color: white;
+}
+.main__sixth-right{
+  background-image: linear-gradient(
+    to right,
+    rgba(1,1,1) 20%,
+    rgba(1, 1, 1,0.3),
+    rgba(1,1,1,0.1)
+    
+  ),
+  url("https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvcmtvdXR8ZW58MHx8MHx8&w=1000&q=80");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: bottom 100% ;
+overflow-y: hidden;
+padding: 15% 30% 20% 10%;
+margin-right: 20%;
+}
+.main__sixth-left{
+  background-image: linear-gradient(
+    to right,
+    rgba(1,1,1) 20%,
+    rgba(1, 1, 1,0.3),
+    rgba(1,1,1,0.1)
+    
+  ),
+  url("https://wallpaperforu.com/wp-content/uploads/2021/07/Wallpaper-Muscle-Press-Pose-Athlete-Workout-Gym-Fitn27938x1668.jpg");
+background-size:cover;
+background-repeat: no-repeat;
+background-position: bottom 80%;
+overflow-y: hidden;
+padding: 15% 30% 15% 10%;
+margin-left: 20%;
+
+}
+.main__sixth__container{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  position: absolute;
+  justify-content: center;
+  top: -70%;
+  right: 0;
+ width: 100%;
+  margin-top: 30%;
+
+ 
+ 
+}
+.main__sixth{
+  background-color: black;
+  width: 100%;
+  /* height: 100vh; */
+  margin-top: 20%;
+  position: relative;
+  
+ 
+}
+.main__sixth-right h1{
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 10%;
+  width: 80%;
+}
+.word{
+  font-size: 1.3rem;
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-style: italic;
+}
+.main__sixth-left h1{
+  font-size: 3rem;
+  color: white;
+  padding-bottom: 10%;
+  font-weight: bolder;
+}
+.apple{
+  font-size: 1rem;
+  color: white;
+  font-weight: lighter;
+  padding-bottom: 20%;
+}
+.main__sixth-bottom{
+  padding: 30% 0% 8% 0%;
+  text-align: center;
+
+}
+.with{
+  background: #cf569e;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #cf569e, #0d3edf);
+  background: linear-gradient(to right, #cf569e, #4568DC);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-size: 1.3rem;
+  font-style: italic;
+  padding-top: 6%;
+}
+.main__sixth-bottom h1{
+  color: white;
+  font-size: 3rem;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+.main__sixth-bottom input{
+  padding: 1% 20% 1% 2%;
+  text-align: left;
+  background-color: transparent;
+  outline: none;
+  border: 4px solid rgba(256,256,256,0.1);
+  color: rgba(256,256,256,0.5);
+  margin-bottom: 5%;
+}
+.up{
+  padding: 1% 4%;
+  background-color: blue;
+}
+.up a{
+  text-decoration: none;
+  color: white;
+}
