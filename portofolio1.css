@@ -16,9 +16,8 @@ header{
       rgba(1,1,1),
       rgba(1, 1, 1,0.1),
       rgba(1,1,1)
-      
     ),
-    url("https://www.teahub.io/photos/full/252-2520574_photo-wallpaper-machine-female-workout-gym-gym-machine.jpg");
+    url("img/img-1.jpg");
   background-size:cover;
   background-repeat: no-repeat;
   background-position: bottom 100% ;
@@ -551,7 +550,8 @@ margin-right: 20%;
     rgba(1,1,1,0.1)
     
   ),
-  url("https://wallpaperforu.com/wp-content/uploads/2021/07/Wallpaper-Muscle-Press-Pose-Athlete-Workout-Gym-Fitn27938x1668.jpg");
+  url("https://images.unsplash.com/photo-1595078475328-1ab05d0a6a0e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTF8fHdvcmtvdXR8ZW58MHx8MHx8&w=1000&q=80");
+background-size:cover;
 background-size:cover;
 background-repeat: no-repeat;
 background-position: bottom 80%;
